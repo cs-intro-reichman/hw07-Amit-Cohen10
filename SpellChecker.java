@@ -53,7 +53,7 @@ public class SpellChecker {
 				simillar = dictionary[i];
 			}
 		}
-		if(min<threshold){
+		if(min<=threshold){
 			return simillar;
 		}
 		else{
